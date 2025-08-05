@@ -2,9 +2,6 @@ input.onGesture(Gesture.TiltRight, function () {
     value2 += -1
     DISPLAY_SUM_VALUE()
 })
-input.onPinPressed(TouchPin.P0, function () {
-	
-})
 input.onGesture(Gesture.TiltLeft, function () {
     value1 += -1
     DISPLAY_SUM_VALUE()
